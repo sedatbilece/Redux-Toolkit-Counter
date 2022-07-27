@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 97%;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.center{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 100px;
+}
+.item{
+    margin: 10px;
+}
+
+.btn{
+    background-color: aquamarine;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.2s;
+}
+
